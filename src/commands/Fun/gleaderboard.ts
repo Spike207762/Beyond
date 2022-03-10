@@ -46,13 +46,13 @@ export default class Command extends BaseCommand {
         ? this.client.contacts[users.jid].short
         : `@${users.jid.split("@")[0]}`;
 
-      let text = `_*🎆BEYOND THE WORLD🎆*_\n *#${i}*\n*🎆USER* : ${username}\n*🎊XP*: ${users.Xp}\n*🏦BANK* : ${users.bank}\n*🪙gold* : ${users.wallet}\n`;
+      let text = `_*🎆MARIN🎆*_\n *#${i}*\n*🎆USER* : ${username}\n*🎊XP*: ${users.Xp}\n*🏦BANK* : ${users.bank}\n*🪙gold* : ${users.wallet}\n`;
       message.push(text);
     }
     console.log(message);
     M.reply(
-      await request.buffer("https://wallpapercave.com/uwp/uwp1997564.jpeg"),
-      MessageType.image,
+      await request.buffer("https://telegra.ph/file/018cf0e18401f5b4e54b4.mp4"),
+      MessageType.gifs,
       undefined,
       mention,
       message.join("\n\n")
