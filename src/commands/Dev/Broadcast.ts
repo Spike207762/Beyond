@@ -28,11 +28,13 @@ export default class Command extends BaseCommand {
     if (!joined)
       return void (await M.reply(`Please provide the Broadcast Message.`));
     const term = joined.trim();
-    const images = [
-      "https://wallpapercave.com/uwp/uwp1997565.jpeg",
-      "https://wallpapercave.com/uwpt/uwp1997563.jpeg",
-    ];
-    const selected = images[Math.floor(Math.random() * images.length)];
+    const gifs = [
+      "https://telegra.ph/file/31cf94618271ff9d29d8e.mp4",
+			"https://telegra.ph/file/17ecc2eece63a4d8bcd51.mp4",
+			"https://telegra.ph/file/621c985f4ca375cfd7df7.mp4",
+			"https://telegra.ph/file/3645407aa72f7c2001ad6.mp4",
+		];
+    const selected = gifs[Math.floor(Math.random() * images.length)];
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const chats: any = this.client.chats
       .all()
@@ -41,7 +43,7 @@ export default class Command extends BaseCommand {
       .map((jids) => (jids.includes("g.us") ? jids : null))
       .filter((v) => v);
     for (let i = 0; i < chats.length; i++) {
-      const text = `🎆_*BEYOND*_🎆\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
+      const text = `🎆_*MARIN*_🎆\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
       this.client.sendMessage(chats[i], { url: selected }, MessageType.image, {
         caption: `${text}`,
         contextInfo: {	mentionedJid: M.groupMetadata?.participants.map((user) => user.jid),
