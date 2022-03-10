@@ -28,7 +28,7 @@ export default class Command extends BaseCommand {
     //   M.reply(JSON.stringify(lb));
 
     // M.reply('total user heuhue :'+indexes.toString())
-    const message = ["_*BEYOND*_ :" + indexes.toString() + ""];
+    const message = ["_*MARIN*_ :" + indexes.toString() + ""];
     const mention = [];
     let i = 0;
     for (const users of lb) {
@@ -51,7 +51,7 @@ export default class Command extends BaseCommand {
     }
     console.log(message);
     M.reply(
-      await request.buffer("https://wallpapercave.com/uwp/uwp1997564.jpeg"),
+      await request.buffer("https://telegra.ph/file/018cf0e18401f5b4e54b4.mp4"),
       MessageType.image,
       undefined,
       mention,
