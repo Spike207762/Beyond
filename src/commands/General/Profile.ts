@@ -37,7 +37,7 @@ export default class Command extends BaseCommand {
       pfp = await this.client.getProfilePicture(user);
     } catch (err) {
       M.reply(`Profile Picture not Accessible of ${username}`);
-      pfp = "https://wallpaperaccess.com/full/5304840.png";
+      pfp = "https://telegra.ph/file/a6dffa1efe1cd645aab15.jpg";
     }
     const exp = (await this.client.getUser(user)).Xp;
     let role: string;
@@ -101,7 +101,7 @@ export default class Command extends BaseCommand {
     }
     await M.reply(
       await request.buffer(
-        pfp || "https://wallpaperaccess.com/full/5304840.png"
+        pfp || "https://telegra.ph/file/c73fb4a0c60f9b1551e5a.jpg"
       ),
       MessageType.image,
       undefined,
