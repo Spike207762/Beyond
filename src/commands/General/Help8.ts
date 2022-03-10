@@ -16,6 +16,7 @@ constructor(client: WAClient, handler: MessageHandler) {
         })
     }
 
+
 run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
             'https://telegra.ph/file/621c985f4ca375cfd7df7.mp4','https://telegra.ph/file/38a9538ae1f2387235caf.mp4','https://telegra.ph/file/80381afa72303cdda3eab.mp4'
