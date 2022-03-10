@@ -1,34 +1,63 @@
-import { MessageType, Mimetype } from "@adiwajshing/baileys";
-import MessageHandler from "../../Handlers/MessageHandler";
-import BaseCommand from "../../lib/BaseCommand";
-import WAClient from "../../lib/WAClient";
-import { ISimplifiedMessage } from "../../typings";
+import { MessageType, Mimetype } from '@adiwajshing/baileys'
+
+import MessageHandler from '../../Handlers/MessageHandler'
+
+import BaseCommand from '../../lib/BaseCommand'
+
+import WAClient from '../../lib/WAClient'
+
+import { ISimplifiedMessage } from '../../typings'
 
 export default class Command extends BaseCommand {
-  constructor(client: WAClient, handler: MessageHandler) {
-    super(client, handler, {
-      command: "support",
-      aliases: ["support"],
-      description: "Gets the support group links",
-      category: "general",
-      usage: `${client.config.prefix}Support`,
-      baseXp: 10,
-    });
-  }
 
-  run = async (M: ISimplifiedMessage): Promise<void> => {
-    await this.client.sendMessage(
-      M.sender.jid,
-      ` _*I'M FROM BEYOND 🎆*\n\n
-        _*BEYOND NEWS*_:https://chat.whatsapp.com/KcjW4C4Zl46L1ECpot1FeO\n\n 
-        _*WELCOME TO BEYOND*_:https://chat.whatsapp.com/HGH0SFq4w0B6IgSWJkgtt5\n\n
-        _*BEYOND CASINO*_:https://chat.whatsapp.com/EmfhxmgQhNfIUxiE8NHCvq\n\n 
-        _*BEYOND NSFW*_:https://chat.whatsapp.com/GSK6jAz783L107yJrjeV71
-        _*BEYOND QUIZ*_:https://chat.whatsapp.com/F6gqHxiHImD1vi5oc3ExBf`,
+    constructor(client: WAClient, handler: MessageHandler) {
 
-      MessageType.text
-    );
+        super(client, handler, {
 
-    return void M.reply("Sent you the Group Link in personal message");
-  };
+            command: 'support',
+
+            aliases: ['support'],
+
+            description: 'Gets the support group links',
+
+            category: 'general',
+
+            usage: `${client.config.prefix}Support`,
+
+            baseXp: 10
+
+        })
+
+    }
+
+    run = async (M: ISimplifiedMessage): Promise<void> => {
+
+        (await this.client.sendMessage(
+
+        M.sender.jid,
+
+        `    ♥️MY DARLING SENPAI ID♥️\n\n*Instagram * *https://instagram.com/its_chey_7*\n\n*💫 NSFW GROUP💫*:*https://chat.whatsapp.com/GIMBtutJAWYBVWbWOkaOfp*`,
+
+           MessageType.text
+
+        ))
+
+        const n = [
+
+            'https://telegra.ph/file/38a9538ae1f2387235caf.mp4'
+
+        ]
+
+        let beckylynch = n[Math.floor(Math.random() * n.length)]
+
+        return void this.client.sendMessage(M.from, { url:beckylynch }, MessageType.video, {quoted:M.WAMessage,
+
+            mimetype: Mimetype.gif,
+
+            caption: `Sent you the support Link in personal message #checkdm \n` }
+
+        )
+
+        }
+
 }
