@@ -34,7 +34,7 @@ export default class Command extends BaseCommand {
     } catch (err) {
       M.reply(`Profile Picture not Accessible of ${username}`);
       pfp =
-        "https://telegra.ph/file/a6dffa1efe1cd645aab15.jpg";
+        "https://telegra.ph/file/2c8baccc85b83b9e799f1.jpg";
     }
     const exp = (await this.client.getUser(user)).Xp;
     let role: string;
