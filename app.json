@@ -1,6 +1,7 @@
 {
-  "name": "Chitoge",
-  "description": "A WhatsApp Bot With Rich Anime Features. ",
+    
+  "name": "marin",
+  "description": "A WhatsApp Bot With Rich NSFW Features based on chitoge.",
   "keywords": [
       "bot",
       "whatsapp",
@@ -12,8 +13,8 @@
       "whatsapp-botto"
   ],
   "website": "https://github.com/ShinNouzen/Chitoge#readme",
-  "repository": "https://github.com/ShinNouzen/Chitoge.git",
-  "logo": "https://wallpapermemory.com/uploads/711/chitoge-kirisaki-wallpaper-full-hd-323316.jpg",
+  "repository": "https://github.com/Chey-san/Marin-Kitagawa-git",
+  "logo": "https://www.linkpicture.com/q/IMG-20220303-WA0752.jpg",
   "success_url": "/",
   "env": {
       "PREFIX": {
