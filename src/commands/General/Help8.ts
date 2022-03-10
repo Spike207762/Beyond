@@ -4,6 +4,7 @@ import WAClient from "../../lib/WAClient";
 import { ICommand, IParsedArgs, ISimplifiedMessage } from "../../typings";
 import { MessageType, proto } from "@adiwajshing/baileys";
 import request from "../../lib/request";
+
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
