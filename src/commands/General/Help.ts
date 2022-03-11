@@ -74,9 +74,9 @@ ${this.client.config.prefix}Ｈelp1 [${this.client.config.prefix}h1]
 💠Description: Say hi to the bot
 🧧Usage: ${this.client.config.prefix}Hi
 
-〽️~sɪᴇsᴛᴀ
+〽️~marin
 💠Description: Displays the info
-🧧Usage: ${this.client.config.prefix}Siesta
+🧧Usage: ${this.client.config.prefix}marin
 ────────────────
 -W E E B S 
 ${this.client.config.prefix}Ｈelp2 [${this.client.config.prefix}h2]
@@ -162,6 +162,10 @@ ${this.client.config.prefix}Ｈelp3 [${this.client.config.prefix}h3]
 〽️~ᴛʀᴀsʜ
 💠Discription: Make someone a trash
 🧧Usage: ${this.client.config.prefix}Trash
+
+〽️~ppcouple
+💠Discription: Sends pair dp
+🧧Usage: ${this.client.config.prefix}ppcouple
 ────────────────
 -M E D I A 
 ${this.client.config.prefix}Ｈelp4 [${this.client.config.prefix}h4]
