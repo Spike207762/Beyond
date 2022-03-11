@@ -219,7 +219,6 @@ ${this.client.config.prefix}Help5 [${this.client.config.prefix}h5]
 🏮 ${this.client.config.prefix}ᴛʀᴀɴꜱʟᴀᴛᴇ
 🏮 ${this.client.config.prefix}ᴡɪᴋɪᴘᴇᴅɪᴀ
 🏮 ${this.client.config.prefix}ᴄɪʀᴄʟᴇ
-🏮 ${this.client.config.prefix}pinterest
 🏮 ${this.client.config.prefix}shorturl [Your url]
 🏮 ${this.client.config.prefix}toimg [(tag)[sticker]]
 ────────────────
