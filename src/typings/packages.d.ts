@@ -23,6 +23,7 @@ declare module "pokedex-promise-v2";
 declare module "imgbb-uploader";
 declare module "string-capitalize-name";
 declare module "vtuber-wiki";
+declare module "parse-ms-js"
 declare module "node-myanimelist";
 declare module "discord-image-generation";
 declare module "discord-canvas";
