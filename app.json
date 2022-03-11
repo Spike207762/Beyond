@@ -1,5 +1,6 @@
-"name": "marin",
-  "description": "A WhatsApp Bot With Rich NSFW Features based on chitoge.",
+{
+  "name": "Marin",
+  "description": "A WhatsApp Bot With Rich Anime Features. ",
   "keywords": [
       "bot",
       "whatsapp",
@@ -71,3 +72,4 @@
           "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
       }
   ]
+}
