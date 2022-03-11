@@ -99,6 +99,7 @@ ${this.client.config.prefix}Ｈelp2 [${this.client.config.prefix}h2]
 🧧 ${this.client.config.prefix}ʀᴇᴄᴏᴍᴍᴇɴᴅ
 🧧 ${this.client.config.prefix}ꜱᴀᴜᴄᴇ
 🧧 ${this.client.config.prefix}ᴡᴀʟʟᴘᴀᴘᴇʀ
+🧧 ${this.client.config.prefix}rpaper
 ────────────────
 -F U N 
 ${this.client.config.prefix}Ｈelp3 [${this.client.config.prefix}h3]
