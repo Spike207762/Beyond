@@ -144,10 +144,6 @@ ${this.client.config.prefix}Ｈelp3 [${this.client.config.prefix}h3]
 💠Discription: Ship 💖 People
 🧧Usage: ${this.client.config.prefix}Ship
 
-〽️~ᴛʀɪᴠɪᴀ
-💠Discription: random trivia
-🧧Usage: ${this.client.config.prefix}Trivia
-
 〽️~ᴊᴀɪʟ
 💠Discription: Who wanna go to jail for being horny?
 🧧Usage: ${this.client.config.prefix}Jail
