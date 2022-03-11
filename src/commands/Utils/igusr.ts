@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
             command: 'iguser',
             aliases: ['ig'],
             description: 'Get the info of a user from ig ',
-            category: 'media',
+            category: 'utils',
             dm: true,
             usage: `${client.config.prefix}iguser [name]`
         })
