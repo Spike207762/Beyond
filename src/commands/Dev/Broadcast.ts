@@ -33,6 +33,9 @@ export default class Command extends BaseCommand {
 			"https://telegra.ph/file/17ecc2eece63a4d8bcd51.mp4",
 			"https://telegra.ph/file/621c985f4ca375cfd7df7.mp4",
 			"https://telegra.ph/file/3645407aa72f7c2001ad6.mp4",
+                        "https://telegra.ph/file/0fde71c91c0e8813b754f.mp4",
+                        "https://telegra.ph/file/7afc21a42c7aab0a1c07d.mp4",
+
 		];
     const selected = gifs[Math.floor(Math.random() * images.length)];
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
