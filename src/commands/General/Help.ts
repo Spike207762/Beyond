@@ -105,10 +105,6 @@ ${this.client.config.prefix}Ｈelp2 [${this.client.config.prefix}h2]
 -F U N 
 ${this.client.config.prefix}Ｈelp3 [${this.client.config.prefix}h3]
 ────────────────
-〽️~ᴄʜᴇꜱꜱ
-💠Discription: Chessssssss
-🧧Usage: ${this.client.config.prefix}Chess
-
 〽️~Qᴜᴏᴛᴇ
 💠Discription: random quote
 🧧Usage: ${this.client.config.prefix}Quote
