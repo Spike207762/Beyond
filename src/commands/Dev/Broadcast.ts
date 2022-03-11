@@ -37,7 +37,7 @@ export default class Command extends BaseCommand {
                         "https://telegra.ph/file/7afc21a42c7aab0a1c07d.mp4",
 
 		];
-    const selected = gifs[Math.floor(Math.random() * images.length)];
+    const selected = gifs[Math.floor(Math.random() * gifs.length)];
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const chats: any = this.client.chats
       .all()
