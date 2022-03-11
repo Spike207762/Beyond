@@ -223,6 +223,7 @@ ${this.client.config.prefix}Help5 [${this.client.config.prefix}h5]
 🏮 ${this.client.config.prefix}shorturl [Your url]
 🏮 ${this.client.config.prefix}toimg [(tag)[sticker]]
 🏮 ${this.client.config.prefix}karaoke [term]
+🏮 ${this.client.config.prefix}doge
 ────────────────
 -M O D E R A T I O N 
 ${this.client.config.prefix}Ｈelp6 [${this.client.config.prefix}h6]
