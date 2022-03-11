@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'play',
             description: '🎵 play a song with just search term!',
-            category: 'media',
+            category: 'music',
             aliases: ['music'],
             usage: `${client.config.prefix}play [term]`,
             baseXp: 30
