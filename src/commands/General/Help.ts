@@ -1,20 +1,20 @@
-import MessageHandler from "../../Handlers/MessageHandler";
-import BaseCommand from "../../lib/BaseCommand";
-import WAClient from "../../lib/WAClient";
-import { ICommand, IParsedArgs, ISimplifiedMessage } from "../../typings";
-import { MessageType, proto } from "@adiwajshing/baileys";
-import request from "../../lib/request";
-  constructor(client: WAClient, handler: MessageHandler) {
-    super(client, handler, {
-      command: "help",
-      description:
-        "Displays the help menu or shows the info of the command provided",
-      category: "general",
-      usage: `${client.config.prefix}help (command_name)`,
-      aliases: ["h"],
-      baseXp: 30,
-    });
-  }
+import MessageHandler from '../../Handlers/MessageHandler'
+import BaseCommand from '../../lib/BaseCommand'
+import WAClient from '../../lib/WAClient'
+import { ICommand, IParsedArgs, ISimplifiedMessage } from '../../typings'
+import { MessageType, Mimetype } from '@adiwajshing/baileys'
+import request from '../../lib/request'
+
+export default class Command extends BaseCommand {
+    constructor(client: WAClient, handler: MessageHandler) {
+        super(client, handler, {
+            command: 'help',
+            description: 'Displays the help menu or shows the info of the command provided',
+            category: 'general',
+            usage: `${client.config.prefix}help (command_name)`,
+            aliases: ['h', 'list', 'menu']
+        })
+    }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
