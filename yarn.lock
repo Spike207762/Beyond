@@ -5229,6 +5229,14 @@ pdfkit@^0.13.0:
     fontkit "^1.8.1"
     linebreak "^1.0.2"
     png-js "^1.0.0"
+    
+    parse-ms-js@^1.2.0:
+
+  version "1.2.0"
+
+  resolved "https://registry.yarnpkg.com/parse-ms-js/-/parse-ms-js-1.2.0.tgz#01430929c32a2032718064d40f9708e25856c4ed"
+
+  integrity sha512-Gh74GTDbkZxfnXE+/HHsgVPQ1TwE8DQuMQXzwdik2LJcDAIaXpTI0MeY5WWVBoZK8A6bM2Pm/3yeNGVpuMvN5g==
 
 peek-readable@^4.0.1:
   version "4.0.1"
