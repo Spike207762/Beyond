@@ -9,7 +9,7 @@ import { ISimplifiedMessage } from "../../typings";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "marin",
+			command: "Chitanda",
 			description: "Displays the info",
 			category: "general",
 			usage: `${client.config.prefix}marin`,
@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			'https://telegra.ph/file/621c985f4ca375cfd7df7.mp4';
+			'https://c.tenor.com/xa8GtMmTWBwAAAPo/chitanda-eru-hyouka.mp4';
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `🖤 *MARIN* 💖\n\n🍀 *Description: A WhatsApp Bot With Rich NSFW features based on chitoge.*\n\n🌐 *OFFICIAL BOT URL: https://github.com/ShineiIchijo/Chitoge* \n\n 📒 *Guide: https://github.com/ShineiIchijo/Chitoge-Guides* \n\n 🔮 *BOT URL:https://github.com/Chey-san/Marin-Kitagawa-Bot* \n`,
+				caption: `💕 *♥ eru chitanda ♥* 💕\n\n🕊 *Description: A WhatsApp Bot With Rich NSFW features created by Lord Akashi.*\n\n🌐 *OFFICIAL BOT URL: https://github.com/minatosan89/Eru-chitanda* \n\n 📒 *Guide: https://github.com/ShineiIchijo/Chitoge-Guides* \n\n 👾 *BOT URL:https://github.com/minatosan89Eru-chitanda* \n`,
 			}
 		);
 	};
