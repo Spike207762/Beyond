@@ -11,7 +11,7 @@
 
 > A Fully Modular and Efficient Yotsuba Bot created by akashi <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/minato1220/Chitoge/blob/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/minato1220/Marin-Kitagawa-Bot)
 
 </div><br/>
 <br/>
