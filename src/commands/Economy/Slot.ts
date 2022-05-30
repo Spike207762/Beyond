@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
     M: ISimplifiedMessage,
     { joined }: IParsedArgs
   ): Promise<void> => {
-    if (M.from !== "120363022488307199@g.us")
+    if (M.from !== "120363040598177414@g.us")
       return void M.reply(
         `You can't bet here. Use ${this.client.config.prefix}support to get casino group link.`
       );
@@ -104,7 +104,7 @@ export default class Command extends BaseCommand {
       const text = `${head}\n\n${i}\n\n📉 You lost *${amount} gold*.`;
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "© HEY-MARIN BOT 2022",
+        footerText: "🚀Astro",
         buttons: buttons,
         headerType: 1,
       };
@@ -121,7 +121,7 @@ export default class Command extends BaseCommand {
       const text = `${head}\n\n${o}\n\n📈 You won *${gold} gold*.`;
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "© HEY-MARIN BOT 2022",
+        footerText: "🚀Astro",
         buttons: buttons,
         headerType: 1,
       };
@@ -137,7 +137,7 @@ export default class Command extends BaseCommand {
       const text = `${head}\n\n${p}\n\n🎊 *Jackpot!* You won *${gold} gold*.`;
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "© HEY-MARIN BOT 2022",
+        footerText: "🚀Spike",
         buttons: buttons,
         headerType: 1,
       };
