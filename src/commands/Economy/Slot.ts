@@ -55,10 +55,10 @@ export default class Command extends BaseCommand {
     const results = [
       "lose",
       "win",
+      "Jakpot",
       "lose",
       "lose",
-      "lose",
-      "lose",
+      "Jakpot",
       "lose",
       "win",
       "win",
@@ -86,7 +86,7 @@ export default class Command extends BaseCommand {
         } gold in your wallet to bet with this amount>*`
       );
     if (amount > 15000)
-      return void M.reply(`🟥 *You can't bet more than 15000 gold*.`);
+      return void M.reply(`🟥 *You can't bet more than 150000000 gold*.`);
     const head = `🎰 *SLOT MACHINE* 🎰`;
     const buttons = [
       {
@@ -104,7 +104,7 @@ export default class Command extends BaseCommand {
       const text = `${head}\n\n${i}\n\n📉 You lost *${amount} gold*.`;
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "🎇 Beyond 🎇",
+        footerText: "🚀SPIKE🧧",
         buttons: buttons,
         headerType: 1,
       };
@@ -121,7 +121,7 @@ export default class Command extends BaseCommand {
       const text = `${head}\n\n${o}\n\n📈 You won *${gold} gold*.`;
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "🎇 Beyond 🎇",
+        footerText: "🚀SPIKE🧧",
         buttons: buttons,
         headerType: 1,
       };
@@ -137,7 +137,7 @@ export default class Command extends BaseCommand {
       const text = `${head}\n\n${p}\n\n🎊 *Jackpot!* You won *${gold} gold*.`;
       const buttonMessage: any = {
         contentText: `${text}`,
-        footerText: "🎇 Beyond 🎇",
+        footerText: "🚀SPIKE🧧",
         buttons: buttons,
         headerType: 1,
       };
