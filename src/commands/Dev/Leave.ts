@@ -1,3 +1,4 @@
+
 import MessageHandler from "../../Handlers/MessageHandler";
 import BaseCommand from "../../lib/BaseCommand";
 import WAClient from "../../lib/WAClient";
@@ -17,6 +18,7 @@ export default class Command extends BaseCommand {
   }
 
   run = async (M: ISimplifiedMessage): Promise<void> => {
+    await M.reply(`SPIKE 𝕊𝕦𝕡𝕡𝕠𝕣𝕥:☞︎︎︎ https://chat.whatsapp.com/L7r7Emf3q3FGEAmlBXbpzr`);
     await M.reply(`*Goodbye* 👋`);
     await this.client
       .groupLeave(M.from)
