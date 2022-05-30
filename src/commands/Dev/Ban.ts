@@ -37,12 +37,12 @@ export default class Command extends BaseCommand {
       // const username = info.notify || info.vname || info.name || user.split('@')[0]
       // const username = user.split('@')[0]
       if (data?.ban) {
-        text += `🟨 @${user.split("@")[0]}: Already Banned\n`;
+        text += `🟨 @${user.split("@")[0]}:\n`;
         continue;
       }
       await this.client.blockUser(user);
       await this.client.banUser(user);
-      text += `🟥 @${user.split("@")[0]}: Banned\n`;
+      text += `🟥 @${user.split("@")[0]}:\n`;
     }
     await M.reply(
       `${text}`,
